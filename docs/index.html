@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>FAME — Financial Artificial Machine Intelligence | AI & LLMs for Finance</title>
-<meta name="description" content="FAME — a research project on Generative AI and Large Language Models for finance, investing, and market supervision. A joint project of Paris Dauphine – PSL and HEC Montréal.">
+<meta name="description" content="FAME — a research project on how generative AI changes investor behaviour, price formation, and market integrity. A joint project of Paris Dauphine – PSL, HEC Montréal, and Université d'Orléans (LEO).">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://fame-ai.org/">
 
@@ -12,12 +12,12 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="FAME">
 <meta property="og:title" content="FAME — Financial Artificial Machine Intelligence">
-<meta property="og:description" content="Generative AI and Large Language Models for finance, investing, and market supervision. Paris Dauphine – PSL × HEC Montréal.">
+<meta property="og:description" content="How generative AI changes investor behaviour, price formation, and market integrity. Paris Dauphine – PSL × HEC Montréal × Université d'Orléans.">
 <meta property="og:url" content="https://fame-ai.org/">
 <meta property="og:image" content="https://fame-ai.org/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="FAME — Financial Artificial Machine Intelligence">
-<meta name="twitter:description" content="Generative AI and Large Language Models for finance, investing, and market supervision.">
+<meta name="twitter:description" content="How generative AI changes investor behaviour, price formation, and market integrity.">
 <meta name="twitter:image" content="https://fame-ai.org/og-image.png">
 
 <!-- Structured data: research project -->
@@ -27,11 +27,12 @@
   "@type": "ResearchProject",
   "name": "FAME — Financial Artificial Machine Intelligence",
   "url": "https://fame-ai.org/",
-  "description": "A research project on Generative AI and Large Language Models for finance, investing, and market supervision.",
-  "knowsAbout": ["Generative AI", "Large Language Models", "Quantitative Finance", "Asset Pricing", "Market Supervision"],
+  "description": "A research project on how generative AI changes investor behaviour, price formation, and market integrity.",
+  "knowsAbout": ["Generative AI", "Large Language Models", "Financial Economics", "Investor Behaviour", "Price Formation", "Market Integrity"],
   "member": [
     { "@type": "Organization", "name": "Paris Dauphine – PSL", "url": "https://dauphine.psl.eu/" },
-    { "@type": "Organization", "name": "HEC Montréal", "url": "https://www.hec.ca/" }
+    { "@type": "Organization", "name": "HEC Montréal", "url": "https://www.hec.ca/" },
+    { "@type": "Organization", "name": "Université d'Orléans – LEO", "url": "https://www.univ-orleans.fr/" }
   ]
 }
 </script>
@@ -90,6 +91,9 @@
   .shead{ text-align:center; max-width:680px; margin:0 auto 40px; }
   .shead h2{ font-size:30px; font-weight:800; margin:0 0 10px; letter-spacing:-.3px; }
   .shead p{ color:var(--muted); font-size:17px; margin:0; }
+  .note{ color:var(--muted); font-size:15px; text-align:center; max-width:780px;
+         margin:30px auto 0; }
+  .note b{ color:var(--fg); font-weight:600; }
 
   /* research focus */
   .focus{ display:grid; grid-template-columns:repeat(3,1fr); gap:22px; }
@@ -176,11 +180,11 @@
 <header class="hero" id="top">
   <div class="wrap">
     <div class="htext">
-      <p class="eyebrow">Paris Dauphine – PSL × HEC Montréal</p>
+      <p class="eyebrow">Paris Dauphine – PSL × HEC Montréal × Université d'Orléans</p>
       <h1>Financial Artificial<br><span class="grad">Machine Intelligence</span></h1>
-      <p class="lead">FAME advances the use of <b>Generative AI and Large Language
-      Models</b> in financial analysis, portfolio management, and market supervision —
-      bridging quantitative finance, econometrics, and state-of-the-art AI.</p>
+      <p class="lead">FAME studies how <b>generative AI</b> changes investor
+      behaviour, price formation, and market integrity — combining financial
+      economics, econometrics, and experimental evidence.</p>
       <div class="actions">
         <a class="cta primary" href="hub/">Explore the Paper Hub →</a>
         <a class="cta ghost" href="#team">Meet the team</a>
@@ -212,6 +216,9 @@
         <p>Adversarial manipulation of AI strategies and real-time tools for regulators.</p>
       </div>
     </div>
+    <p class="note">Underpinning this work is a hand-annotated <b>gold-standard
+    news–firm dataset</b>, built with students of the Dauphine Tunis campus and
+    coordinated across Paris, Montréal, and Tunis.</p>
   </div>
 </section>
 
@@ -219,7 +226,7 @@
   <div class="wrap">
     <div class="shead">
       <h2>Team</h2>
-      <p>Researchers in quantitative finance, econometrics, and machine learning across two institutions.</p>
+      <p>Researchers in financial economics, econometrics, and machine learning across three institutions.</p>
     </div>
     <div id="team-list"></div>
   </div>
@@ -235,9 +242,9 @@
     <div class="grouph">Le Monde</div>
     <div class="papers">
       <div class="pcard">
-        <h3>Quand l'IA vous aide à gérer votre patrimoine</h3>
-        <div class="pmeta">Interview with Serge Darolles · 10 Dec 2025 · <span class="tag">subscriber access</span></div>
-        <p>On the risks and limits of AI in retail investment advice, drawing on the FAME project's experimental work and the Nextwise game.</p>
+        <h3>Quand l'IA se fait conseillère patrimoniale</h3>
+        <div class="pmeta">Nina Godart, with Serge Darolles · 6 Dec 2025 · <span class="tag">subscriber access</span></div>
+        <p>On the risks and limits of AI in retail investment advice, drawing on the FAME project's experimental work and the Next Challenge.</p>
       </div>
     </div>
 
@@ -260,7 +267,7 @@
       <a class="pcard" href="https://dauphine.psl.eu/eclairages/article/conseil-financier-et-ia-ce-que-la-recherche-apporte-au-debat" target="_blank" rel="noopener">
         <h3>Conseil financier et IA : ce que la recherche apporte au débat ↗</h3>
         <div class="pmeta">Serge Darolles · 19 May 2026</div>
-        <p>Presents the FAME research program and the Nextwise game, which confronts LLM-driven strategies with human investors in a rigorous experimental setting.</p>
+        <p>Presents the FAME research program and the Next Challenge, which confronts LLM-driven strategies with human investors in a rigorous experimental setting.</p>
       </a>
       <a class="pcard" href="https://dauphine.psl.eu/eclairages/article/lia-au-travail-qui-en-profite-vraiment" target="_blank" rel="noopener">
         <h3>L'IA au travail : qui en profite vraiment ? ↗</h3>
@@ -291,13 +298,15 @@
     <div class="fgrid">
       <div>
         <div class="fbrand grad">FAME</div>
-        <p>Financial Artificial Machine Intelligence — a research project on Generative
-        AI and Large Language Models for investing, trading, and market supervision.</p>
+        <p>Financial Artificial Machine Intelligence — a research project on how
+        generative AI changes investor behaviour, price formation, and market
+        integrity.</p>
       </div>
       <div class="fcol">
         <h4>Partners</h4>
         <a href="https://dauphine.psl.eu/" target="_blank" rel="noopener">Paris Dauphine – PSL</a>
         <a href="https://www.hec.ca/" target="_blank" rel="noopener">HEC Montréal</a>
+        <a href="https://www.univ-orleans.fr/" target="_blank" rel="noopener">Université d'Orléans – LEO</a>
       </div>
       <div class="fcol">
         <h4>Explore</h4>
@@ -307,7 +316,7 @@
         <a href="#outreach">Media</a>
       </div>
     </div>
-    <div class="fbot">© 2026 FAME · Paris Dauphine – PSL × HEC Montréal</div>
+    <div class="fbot">© 2026 FAME · Paris Dauphine – PSL × HEC Montréal × Université d'Orléans</div>
   </div>
 </footer>
 
@@ -353,12 +362,18 @@ const TEAM = [
  {group:"HEC Montréal", name:"Laurent Charlin", title:"Associate Professor · Mila",
   bio:"Building intelligent systems that learn to support decision-making.",
   photo:"laurent-charlin.jpg", link:"https://www.cs.toronto.edu/~lcharlin/"},
- {group:"HEC Montréal", name:"Eva Portelance", title:"Assistant Professor · Mila",
+ {group:"HEC Montréal", name:"Eva Portelance", title:"Assistant Professor · Mila · Canada CIFAR AI Chair",
   bio:"Advancing AI inspired by human learning, language, and reasoning.",
   photo:"eva-portelance.jpg", link:"https://evaportelance.github.io/"},
  {group:"HEC Montréal", name:"Mohsen Barzegar", title:"",
   bio:"Exploring how AI can be applied to trading and financial markets.",
   photo:"mohsen-barzegar.jpg", link:"https://www.linkedin.com/in/mohsen-barzegar-05317a138/"},
+ {group:"Université d'Orléans – LEO", name:"Gilles de Truchis", title:"Associate Professor · Partner lead",
+  bio:"Econometrics of financial time series."},
+ {group:"Université d'Orléans – LEO", name:"Alexis Direr", title:"Professor",
+  bio:"Household finance, savings, and decision-making under risk."},
+ {group:"Université d'Orléans – LEO", name:"Sébastien Galanti", title:"Associate Professor",
+  bio:"Financial markets, intermediation, and information production."},
 ];
 const COLORS=["#5b9dff","#cf9bff","#5fd39a","#f6c453","#f78f8f","#6fd1e6","#b59cff"];
 const esc=s=>(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
